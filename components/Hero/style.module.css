@@ -1,0 +1,125 @@
+.heroContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 35px;
+}
+
+.heroContent {
+    display: flex;
+    max-width: 863px;
+    gap: 20px;
+}
+
+.heroText {
+    width: 451px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+}
+
+.heroTitle {
+    font-size: 54px;
+    font-weight: 500;
+    line-height: 64px;
+    color: #4A4A4A;
+}
+
+.heroDescription {
+    font-size: 24px;
+    line-height: 40px;
+    color: #6A6A6A;
+}
+
+.loginFormContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 1;
+}
+
+.loginForm {
+    background-image: url("/background_form.svg");
+    background-size: contain;
+    height: 412px;
+    width: 395px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+    padding: 30px;
+}
+
+.loginHeader {
+    padding-bottom: 12px;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #008AB5;
+}
+
+.inputContainer {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 48px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #008AB5;
+    background-color: #E1F1F8;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #4A4A4A;
+    border: none;
+    outline: none;
+}
+
+.forgotPassword {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 26px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #008AB5;
+}
+
+.submitContainer {
+    width: 100%;
+}
+
+.submitButton {
+    width: 100%;
+    padding: 15px;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: #00ABE1;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.signupPrompt {
+    display: flex;
+    gap: 25px;
+    padding-top: 17px;
+}
+
+.imageContainer {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background: linear-gradient(to bottom, white 140px, #00ABE1 140px);
+}
+
+.heroImage {
+    max-width: 1512px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
